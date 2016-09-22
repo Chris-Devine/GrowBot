@@ -1,0 +1,5 @@
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.DTO\bin\Debug\GrowBot.DTO.dll
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.DTO\bin\Debug\GrowBot.DTO.pdb
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.DTO\obj\Debug\GrowBot.DTO.csprojResolveAssemblyReference.cache
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.DTO\obj\Debug\GrowBot.DTO.dll
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.DTO\obj\Debug\GrowBot.DTO.pdb

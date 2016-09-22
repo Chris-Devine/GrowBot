@@ -1,0 +1,5 @@
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Constants\bin\Debug\GrowBot.Constants.dll
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Constants\bin\Debug\GrowBot.Constants.pdb
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Constants\obj\Debug\GrowBot.Constants.csprojResolveAssemblyReference.cache
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Constants\obj\Debug\GrowBot.Constants.dll
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Constants\obj\Debug\GrowBot.Constants.pdb

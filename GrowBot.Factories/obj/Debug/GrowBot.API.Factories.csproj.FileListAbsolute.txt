@@ -1,0 +1,15 @@
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\bin\Debug\GrowBot.API.Factories.dll
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\bin\Debug\GrowBot.API.Factories.pdb
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\bin\Debug\GrowBot.API.Entities.dll
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\bin\Debug\GrowBot.DTO.dll
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\bin\Debug\EntityFramework.dll
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\bin\Debug\GrowBot.DTO.pdb
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\bin\Debug\GrowBot.API.Entities.pdb
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\bin\Debug\EntityFramework.xml
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\obj\Debug\GrowBot.API.Factories.csprojResolveAssemblyReference.cache
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\obj\Debug\GrowBot.API.Factories.dll
+C:\Users\chrisdevine\Downloads\GrowBot\GrowBot.Factories\obj\Debug\GrowBot.API.Factories.pdb

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{494D0885-BCF9-41B3-AB5C-22C305BE3646}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GrowBot.API.Factories</RootNamespace>
+    <AssemblyName>GrowBot.API.Factories</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GrowResults\GrowFactory.cs" />
+    <Compile Include="GrowResults\Interfaces\IGrowFactory.cs" />
+    <Compile Include="GrowSettings\FanSettingFactory.cs" />
+    <Compile Include="GrowSettings\Interfaces\ILightSettingFactory.cs" />
+    <Compile Include="GrowSettings\Interfaces\IFanSettingFactory.cs" />
+    <Compile Include="GrowSettings\Interfaces\IGrowSettingFactory.cs" />
+    <Compile Include="GrowSettings\Interfaces\IGrowPhaseSettingFactory.cs" />
+    <Compile Include="GrowSettings\Interfaces\IWaterSettingFactory.cs" />
+    <Compile Include="GrowSettings\LightSettingFactory.cs" />
+    <Compile Include="GrowSettings\GrowSettingFactory.cs" />
+    <Compile Include="GrowSettings\GrowSettingPhaseFactory.cs" />
+    <Compile Include="GrowSettings\WaterSettingFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GrowBot.DTO\GrowBot.DTO.csproj">
+      <Project>{569d1742-6f1a-4f11-8dc1-bd9f4e84fa48}</Project>
+      <Name>GrowBot.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GrowBot.Entitie\GrowBot.API.Entities.csproj">
+      <Project>{01C3F5A7-9957-45E6-A5EF-1F50AAD0E536}</Project>
+      <Name>GrowBot.API.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GrowDevice\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
